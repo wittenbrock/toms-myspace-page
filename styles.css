@@ -239,3 +239,34 @@ Profile Picture Container
   justify-self: center;
   align-self: end;
 }
+
+/*
+========================================
+Contact Box
+========================================
+*/
+
+.contact-box {
+  border: 2px solid rgb(102, 153, 204);
+  margin-top: 12px;
+  height: 149px;
+  width: 300px;
+}
+
+.contact-box h2{
+  font-size: 9pt;
+  color: white;
+  background-color: rgb(102, 153, 204);
+  margin: 0;
+  font-weight: bold;
+  height: 17px;
+  padding-left: 10px;
+}
+
+.contact-images {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+}
