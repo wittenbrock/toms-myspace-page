@@ -1,0 +1,156 @@
+/*
+========================================
+Global
+========================================
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: verdana,arial,sans-serif,helvetica;
+  background-color: #e5e5e5;
+  font-size: 8pt;
+}
+
+/*
+========================================
+Master Container
+========================================
+*/
+
+.master-container {
+  margin: auto;
+  width: 800px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/*
+========================================
+Main Header
+========================================
+*/
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 151px;
+  background-color: rgb(0, 51, 153);
+  color: #ffffff;
+}
+
+.main-header a {
+  text-decoration: none;
+}
+
+.main-header ul {
+  list-style-type: none;
+}
+
+.main-header a:link {
+  color: #ffffff;
+}
+
+.main-header a:visited {
+  color: #ffffff;
+}
+
+/*
+========================================
+Search Bar
+========================================
+*/
+
+.search-bar {
+  display: grid;
+  grid-template-columns: .25fr 1fr .25fr;
+}
+
+.search-bar form {
+  justify-self: center;
+  margin: 0;
+}
+
+.search-bar form [type="text"] {
+  width: 160px;
+}
+
+.search-bar form [type="radio"] {
+  margin-right: .33rem;
+}
+
+.search-bar ul {
+  display: flex;
+}
+
+.search-bar a:hover {
+  text-decoration: underline;
+}
+
+.submit-btn {
+  margin: 8px;
+  border: 1px solid black;
+  padding: 2px 7px;
+  background-color: #E0FFFF;
+  font-size: 10px;
+  border-color: rgb(186, 186, 186);
+}
+
+.topnav {
+  padding: 0;
+  margin: 8px;
+}
+
+.topnav li:first-child::after {
+  content: '|';
+  margin: .33rem;
+}
+
+.home {
+  justify-self: start;
+}
+
+.signup {
+  justify-self: end;
+}
+
+/*
+========================================
+Navigation Bar
+========================================
+*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  background-color: rgb(102, 153, 204);
+  height: 26px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar li::after {
+  content: '|';
+  margin: .33rem;
+  color: black;
+}
+
+.navbar li:last-child::after {
+  content: '';
+}
+
+.navbar a:hover {
+  color: #003399;
+  text-decoration: underline;
+}
