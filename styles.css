@@ -200,6 +200,7 @@ Profile Picture Container
   grid-template-columns: 170px 115px;
   grid-template-rows: 176px;
   grid-column-gap: 15px;
+  margin-bottom: 12px;
 }
 
 .profile-picture-container p {
@@ -248,9 +249,9 @@ Contact Box
 
 .contact-box {
   border: 2px solid rgb(102, 153, 204);
-  margin-top: 12px;
   height: 149px;
   width: 300px;
+  margin-bottom: 24px;
 }
 
 .contact-box h2{
@@ -269,4 +270,31 @@ Contact Box
   margin: 0;
   margin-top: 5px;
   margin-left: 10px;
+}
+
+/*
+========================================
+MySpace URL
+========================================
+*/
+
+.myspace-url-box {
+  border: 1px solid rgb(102, 153, 204);
+  height: 26px;
+  margin-bottom: 24px;
+}
+
+.myspace-url-box h3,
+.myspace-url-box p {
+  margin: 0;
+  padding: 0;
+}
+
+.myspace-url-box h3 {
+  font-size: 8pt;
+  padding-left: 2px;
+}
+
+.myspace-url-box p {
+  padding-left: 6px;;
 }
