@@ -17,6 +17,24 @@ body {
   font-size: 8pt;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: #003399;
+}
+
+a:visited {
+  color: #003399;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #AB2A25;
+}
+
 /*
 ========================================
 Master Container
@@ -27,7 +45,6 @@ Master Container
   margin: auto;
   width: 800px;
   background-color: white;
-  border: 1px solid black;
 }
 
 /*
@@ -45,9 +62,6 @@ Main Header
   color: #ffffff;
 }
 
-.main-header a {
-  text-decoration: none;
-}
 
 .main-header ul {
   list-style-type: none;
@@ -55,6 +69,7 @@ Main Header
 
 .main-header a:link {
   color: #ffffff;
+  font-weight: normal;
 }
 
 .main-header a:visited {
@@ -87,10 +102,6 @@ Search Bar
 
 .search-bar ul {
   display: flex;
-}
-
-.search-bar a:hover {
-  text-decoration: underline;
 }
 
 .submit-btn {
@@ -152,5 +163,79 @@ Navigation Bar
 
 .navbar a:hover {
   color: #003399;
-  text-decoration: underline;
+}
+
+/*
+========================================
+Profile Side Bar
+========================================
+*/
+
+.profile-sidebar {
+  margin-left: 27px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 12.25pt;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.profile-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+========================================
+Profile Picture Container
+========================================
+*/
+
+.profile-picture-container {
+  display: grid;
+  grid-template-columns: 170px 115px;
+  grid-template-rows: 176px;
+  grid-column-gap: 15px;
+}
+
+.profile-picture-container p {
+  margin: 0;
+}
+
+.profile-pic {
+  grid-area: 1/1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.personal-msg {
+  grid-area: 1/2;
+  margin: 0;
+}
+
+.gender-age {
+  grid-area: 1/2;
+}
+
+.gender-age li:first-child {
+  margin-top: 28px;
+}
+
+.last-login {
+  grid-area: 1/2;
+  align-self: end;
+}
+
+.last-login li:last-child{
+  margin-bottom: 15px;
+}
+
+.pics-videos {
+  grid-area: 1/1;
+  justify-self: center;
+  align-self: end;
 }
