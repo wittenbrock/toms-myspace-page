@@ -437,3 +437,54 @@ User Network
 .user-network h2 {
   font-size: 12pt;
 }
+
+/*
+========================================
+Blog
+========================================
+*/
+
+.blog {
+  display: grid;
+  grid-auto-rows: 26px;
+  flex-direction: column;
+  margin-top: 13px;
+  margin-left: 12px;
+}
+
+.blog p {
+  margin-top: 3px;
+}
+
+/*
+========================================
+Footer
+========================================
+*/
+
+footer {
+  display: grid;
+  grid-template-rows: 26px 39px;
+  background-color: #e5e5e5;
+}
+
+footer a {
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 8pt;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+footer div {
+  align-self: center;
+  font-size: 8pt;
+  font-weight: normal;
+
+}
