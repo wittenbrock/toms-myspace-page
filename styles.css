@@ -35,6 +35,12 @@ a:hover {
   color: #AB2A25;
 }
 
+h2{
+  font-size: 9pt;
+  margin: 0;
+  font-weight: bold;
+}
+
 /*
 ========================================
 Master Container
@@ -189,6 +195,7 @@ h1 {
   margin: 0;
 }
 
+
 /*
 ========================================
 Profile Picture Container
@@ -255,11 +262,8 @@ Contact Box
 }
 
 .contact-box h2{
-  font-size: 9pt;
   color: white;
   background-color: rgb(102, 153, 204);
-  margin: 0;
-  font-weight: bold;
   height: 17px;
   padding-left: 10px;
 }
@@ -297,4 +301,94 @@ MySpace URL
 
 .myspace-url-box p {
   padding-left: 6px;;
+}
+
+/*
+========================================
+Sidebar Table Class
+========================================
+*/
+
+.sidebar-table {
+  border: 2px solid rgb(102, 153, 204);
+  display: table;
+  border-collapse: separate;
+  border-spacing: 3px;
+}
+
+.sidebar-table-h2 {
+  background-color: rgb(102, 153, 204);
+  color: white;
+  text-align: left;
+  height: 17px;
+  padding-left: 15px;
+  padding-top: 2px;
+}
+
+.sidebar-table-header {
+  vertical-align: top;
+  text-align: left;
+  width: 107px;
+  background-color: rgb(177, 208, 240);
+  color: #336699;
+  padding: 3px;
+  font-weight: bold;
+  font-size:8pt;
+}
+
+.sidebar-table-data {
+  width: 184px;
+  background-color:rgb(213, 232, 251);
+  padding: 3px;
+}
+
+/*
+========================================
+Interests
+========================================
+*/
+
+.interests p {
+  margin-top: 0;
+}
+
+.interests p:only-child,
+.interests p:last-child {
+  margin-bottom: 0;
+}
+
+.interests table {
+  margin-bottom: 13px;
+}
+
+/*
+========================================
+Details
+========================================
+*/
+
+.details table {
+  margin-bottom: 22px;
+}
+
+/*
+========================================
+Schools
+========================================
+*/
+
+.schools .sidebar-table-header {
+  width: 228px;
+  color: black;
+  font-weight: normal;
+}
+
+.schools .sidebar-table-data {
+  width: 63px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.schools ul {
+  margin-bottom: 2em;
 }
