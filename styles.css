@@ -35,7 +35,7 @@ a:hover {
   color: #AB2A25;
 }
 
-h2{
+h2 {
   font-size: 9pt;
   margin: 0;
   font-weight: bold;
@@ -173,11 +173,25 @@ Navigation Bar
 
 /*
 ========================================
-Profile Side Bar
+Page Content Container
+========================================
+*/
+
+.page-content-container {
+  display: grid;
+  grid-template-columns: 325px 453px;
+  grid-column-gap: 20px;
+  grid-template-areas: "sidebar main";
+}
+
+/*
+========================================
+Profile Sidebar Column
 ========================================
 */
 
 .profile-sidebar {
+  grid-area: sidebar;
   margin-left: 27px;
   width: 300px;
 }
@@ -391,4 +405,35 @@ Schools
 
 .schools ul {
   margin-bottom: 2em;
+}
+
+/*
+========================================
+Main Column
+========================================
+*/
+
+main {
+  grid-area: main;
+}
+
+/*
+========================================
+User Network
+========================================
+*/
+
+.user-network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 433px;
+  margin: auto;
+  height: 75px;
+  border: 2px solid black;
+  margin-top: 13px;
+}
+
+.user-network h2 {
+  font-size: 12pt;
 }
