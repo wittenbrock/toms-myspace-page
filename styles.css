@@ -15,6 +15,7 @@ body {
   font-family: verdana,arial,sans-serif,helvetica;
   background-color: #e5e5e5;
   font-size: 8pt;
+  margin: 0;
 }
 
 a {
@@ -632,8 +633,10 @@ Footer
 
 footer {
   display: grid;
-  grid-template-rows: 26px 39px;
+  grid-template-rows: 16px 39px;
   background-color: #e5e5e5;
+  padding-top: 10px;
+  height: 65px;
 }
 
 footer a {
@@ -642,16 +645,30 @@ footer a {
   font-size: 8pt;
 }
 
+
 footer ul {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   list-style-type: none;
   padding: 0;
-  width: 100%;
-  margin: 0;
+  margin:0;
 }
 
-footer div {
-  align-self: center;
+footer li:after {
+  content: ' | ';
+  font-weight: normal;
+}
+
+#last:after {
+  content: none;
+}
+
+footer small {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
   font-size: 8pt;
   font-weight: normal;
 }
