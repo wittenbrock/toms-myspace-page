@@ -514,7 +514,7 @@ Friend Space
   margin-left: 15px;
 }
 
-.friend-count {
+.focus-highlight {
   color: #cc0000;
   font-weight: normal;
   font-size: 10pt;
@@ -543,14 +543,85 @@ Friend Space
   justify-content: flex-end;
 }
 
-
 .friends-list-link {
   margin-top: 7px;
   margin-right: 8px;
+  margin-bottom: 30px;
 }
 
 .friends-list-link a {
   color: #cc0000;
+}
+
+/*
+========================================
+Comment Wall
+========================================
+*/
+
+.comment-wall .main-section-header {
+  margin-bottom: 3px;
+}
+
+.comment-wall .main-section-h2 {
+  margin-bottom: 0;
+}
+
+#comment-counter {
+  margin-top: 0;
+  margin-left: 15px;
+  margin-bottom: 3px;
+}
+
+.comment-wall table {
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.comment-wall th {
+  background-color: rgb(255, 153, 51);
+  width: 158px;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.comment-wall td {
+  vertical-align: top;
+  background-color:rgb(249, 214, 180);
+  width: 269px;
+  padding: 3px;
+}
+
+.comment-wall figcaption,
+.comment-wall figure {
+  margin: 0;
+}
+
+.comment-wall figcaption {
+  margin-bottom: 1em;
+}
+
+.comment-wall figure {
+  margin-bottom: 49.33px;
+}
+
+
+.comment-wall h3 {
+  font-size: 10pt;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.comment-wall p {
+  font-weight: normal;
+  text-align: left;
+  margin: 0;
+}
+
+#add-comment {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 /*
