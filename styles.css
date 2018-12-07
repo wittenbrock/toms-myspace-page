@@ -41,6 +41,10 @@ h2 {
   font-weight: bold;
 }
 
+p {
+  line-height: 1.3;
+}
+
 /*
 ========================================
 Master Container
@@ -446,14 +450,55 @@ Blog
 
 .blog {
   display: grid;
-  grid-auto-rows: 26px;
+  grid-auto-rows: 29px;
   flex-direction: column;
   margin-top: 13px;
   margin-left: 12px;
+  margin-bottom: 16px;
 }
 
 .blog p {
   margin-top: 3px;
+}
+
+/*
+========================================
+Blurbs
+========================================
+*/
+
+.blurbs header {
+  background-color: #ffcc99;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 8px;
+}
+
+.blurbs h2 {
+  color: #FF6600;
+  margin-left: 20px;
+}
+
+.blurbs h3 {
+  margin: 0;
+  color: #FF6600;
+  font-size: 9pt;
+  margin-left: 15px;
+}
+
+.blurbs p:nth-of-type(5) {
+  margin-bottom: 2em;
+}
+
+.blurbs p {
+  margin-top: 0;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.info {
+  color: green;
+  font-weight: bold;
 }
 
 /*
@@ -486,5 +531,4 @@ footer div {
   align-self: center;
   font-size: 8pt;
   font-weight: normal;
-
 }
