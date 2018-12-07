@@ -32,7 +32,7 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
-  color: #AB2A25;
+  color: #cc0000;
 }
 
 h2 {
@@ -467,14 +467,14 @@ Blurbs
 ========================================
 */
 
-.blurbs header {
+.main-section-header {
   background-color: #ffcc99;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   margin-bottom: 8px;
 }
 
-.blurbs h2 {
+.main-section-h2 {
   color: #FF6600;
   margin-left: 20px;
 }
@@ -491,14 +491,66 @@ Blurbs
 }
 
 .blurbs p {
-  margin-top: 0;
-  margin-left: 15px;
-  margin-bottom: 15px;
+  margin: 0 10px 15px 15px;
 }
 
 .info {
   color: green;
   font-weight: bold;
+}
+
+/*
+========================================
+Friend Space
+========================================
+*/
+
+.friends header {
+  margin-bottom: 6px;
+}
+
+.friends p:nth-of-type(1) {
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+.friend-count {
+  color: #cc0000;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+.friend-pic-container {
+  display: grid;
+  grid-template-columns: repeat(4, 109px);
+  grid-template-rows: 160px 193px;
+}
+
+.friend-pic-container figure {
+  margin: 0;
+}
+
+.friend-pic-container figcaption {
+  text-align: center;
+}
+.friend-pic-container img {
+  display: block;
+  margin: auto;
+}
+
+.friends-list-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.friends-list-link {
+  margin-top: 7px;
+  margin-right: 8px;
+}
+
+.friends-list-link a {
+  color: #cc0000;
 }
 
 /*
