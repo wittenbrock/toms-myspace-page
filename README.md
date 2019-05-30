@@ -1,4 +1,4 @@
-![myspace](https://user-images.githubusercontent.com/41911653/58663072-79d81400-82e0-11e9-92ab-aa19693d6c1a.png)
+![myspace](https://user-images.githubusercontent.com/41911653/58667610-58c8f080-82eb-11e9-9adf-b22a10cab519.png)
 
 # [Tom's Myspace Page](https://wittenbrock.github.io/toms-myspace-page/)
 
