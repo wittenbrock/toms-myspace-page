@@ -9,7 +9,7 @@ A static recreation of Tom's Myspace page. You can view an archived version of T
 1. Clone the repository to your computer.
 
 ```bash
-git clone https://wittenbrock.github.io/toms-myspace-page/
+git clone https://github.com/wittenbrock/toms-myspace-page.git
 ```
 
 2. To view the project locally, navigate to the project folder and open the `index.html` file in a web browser.
