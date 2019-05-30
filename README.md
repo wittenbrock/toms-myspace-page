@@ -1,11 +1,21 @@
-# Tom's Myspace Page
+# [Tom's Myspace Page](https://wittenbrock.github.io/toms-myspace-page/)
 
-This is a static recreation of [Tom's 2006 Myspace page](https://web.archive.org/web/20060423020134/myspace.com/tom). 
+A static recreation of Tom's Myspace page. You can view an archived version Tom's original page on [archive.org](https://web.archive.org/web/20060423020134/myspace.com/tom). This project is currently being on hosted on [Github Pages](https://wittenbrock.github.io/toms-myspace-page/).
 
-You can view a live version of this project on [Github Pages](https://wittenbrock.github.io/myspace-website-clone/).
+## Installation
 
-The goal of this project was to solidify my knowledge of CSS Flexbox and CSS Grid by building a website with a relatively complex layout. 
+1. Clone the repository to your computer.
 
-# Screenshot
+```bash
+git clone https://wittenbrock.github.io/toms-myspace-page/
+```
 
-![Tom's Myspace Page](readme-screenshots/myspace-website-clone.png)
+2. To view the project locally, navigate to the project folder and open the `index.html` file in a web browser.
+
+## Tools
+
+This project:
+
+* uses **semantic HTML** markup.
+* is styled with **CSS**.
+* is hosted on **[Github Pages](https://wittenbrock.github.io/toms-myspace-page/)**.
